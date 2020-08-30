@@ -20,10 +20,11 @@ button {
   font-size: 100%;
   background-color: #563d7c;
   border-radius: 5px;
-  padding: 2px 10px;
   color: white;
-  border: 0;
   transition: background-color 0.1s;
+  border: 2px solid #563d7c;
+  padding: 16px 32px;
+  text-align: center;
 }
 
 button:hover {
@@ -68,8 +69,25 @@ li:nth-child(odd) {
 
 .scores {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
+  border-radius: 5px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #563d7c;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.scores:hover {
+  background-color: #8570a5;
+  color: white;
 }
 
 .feedback {
@@ -83,6 +101,18 @@ li:nth-child(odd) {
 
 .timer {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
+  border-radius: 5px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #563d7c;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.1s;
+  cursor: pointer;
 }
